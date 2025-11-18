@@ -1,0 +1,12 @@
+.env
+
+/bin/
+/dist/
+main
+main.exe
+__debug_bin
+___go_build_*
+
+.idea/
+.vscode/
+*.iml
