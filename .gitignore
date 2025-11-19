@@ -5,14 +5,14 @@
 /dist/
 main
 main.exe
-go_crud       # <--- Добавили имя твоего проекта (на всякий случай)
-*.test        # <--- Тестовые бинарники
-*.out         # <--- Файлы покрытия тестов (coverage)
+go_crud
+*.test
+*.out
 ___go_build_*
 
 .idea/
 .vscode/
 *.iml
 
-.DS_Store     # <--- Обязательно для Mac!
+.DS_Store
 Thumbs.db
