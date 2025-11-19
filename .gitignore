@@ -1,12 +1,18 @@
+
 .env
 
 /bin/
 /dist/
 main
 main.exe
-__debug_bin
+go_crud       # <--- Добавили имя твоего проекта (на всякий случай)
+*.test        # <--- Тестовые бинарники
+*.out         # <--- Файлы покрытия тестов (coverage)
 ___go_build_*
 
 .idea/
 .vscode/
 *.iml
+
+.DS_Store     # <--- Обязательно для Mac!
+Thumbs.db
